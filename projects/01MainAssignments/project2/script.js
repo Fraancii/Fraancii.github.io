@@ -11,9 +11,7 @@ function setup() {
 	for(let i=0; i<200; i++) {
 		starsX[i] = random(width);
 		starsY[i] = random(height);
-		//colorMex = color('#F9EBDE')
-		colorMex = color('#FFFFFF')
-
+		colorMex = color('#F9EBDE')
 	}
 	msg = new Message(width/2, height/2, colorMex, "") //define the obj 'msg' depending on the class new Message
 	txt = new Text()
